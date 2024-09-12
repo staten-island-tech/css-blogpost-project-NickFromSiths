@@ -13,6 +13,9 @@ body{
 li{
     color: white
 }
+.smaller{
+    font-size: medium;
+}
 .first{
     color:purple
 }
