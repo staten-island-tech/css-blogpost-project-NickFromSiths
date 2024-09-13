@@ -10,19 +10,14 @@ html, body, *{
 body{
     background-color: #f9f9e2;
 }
-li{
-    color: black
-}
 .smaller{
     font-size: 28px;
-    color:#73b4aa;
+    color:#536c41;
     margin: 1rem;
 }
-.first{
-    color:purple
-}
+
 .title{
-    color:#73b4aa;
+    color:#536c41;
 }
 h1{
     font-size: 40px;
@@ -31,35 +26,39 @@ h1{
 h2{
     font-size: 18px;
     text-align: center;
+    color: #73b4aa;
 }
 p{
     text-align: center;
 }
-img{
-    width: 500px;
-}
+
 
 
 div{
-    width:70%;
-    height:50%;
+    width: 40rem;
+    height:30rem;
     border: 2px black;
     border-radius: 5px;
+    margin: auto;
+
 }
 .container{
-    justify-content: space-between;
-    flex: auto;
+    width: 90vw;
+    margin: 2rem auto;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 .post{
-    height: 250px;
-    width: 150px;
+    height: 30rem;
+    width: 50rem;
     background-color: white;
     margin: 10px auto;
     padding: 25px;
 }
-.post-img{
+.card-img{
     width: 100%;
     height: 50%;
     /* object fit fixes aspect ratio of img if needed*/
