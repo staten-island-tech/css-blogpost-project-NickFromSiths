@@ -8,26 +8,28 @@ html, body, *{
 
 
 body{
-
+    background-color: #f9f9e2;
 }
 li{
     color: black
 }
 .smaller{
     font-size: 28px;
+    color:#73b4aa;
+    margin: 1rem;
 }
 .first{
     color:purple
 }
-#second{
-    color:blue
+.title{
+    color:#73b4aa;
 }
 h1{
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
 }
 h2{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 p{
@@ -35,8 +37,21 @@ p{
 }
 img{
     width: 500px;
-    
 }
+
+
+div{
+    width:70%;
+    height:50%;
+    border: 2px black;
+    border-radius: 5px;
+}
+.container{
+    justify-content: space-between;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
 .post{
     height: 250px;
     width: 150px;
