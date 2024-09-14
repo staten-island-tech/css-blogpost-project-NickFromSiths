@@ -50,15 +50,13 @@ div{
 
 .div{
     width: 40rem;
-    height: 10rem;
+    height: 7rem;
 }
 
 .container{
     width: 90vw;
     margin: 2rem auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin: auto;
 
 }
 
