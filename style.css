@@ -15,7 +15,19 @@ html, body, *{
 
 body{
     background-color: #f9f9e2;
-    
+}
+button{
+    background-color: #fab128;
+    color: #536c41;
+    border: none;
+    border-radius: 3px;
+    width: 30rem;
+    height: 18px;
+    text-decoration: none;
+}
+a{
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 .smaller{
     font-size: 28px;
@@ -29,10 +41,7 @@ body{
     padding-bottom: 10px;
 
 }
-.button{
-    margin-top: -10px;
-    margin-bottom: 10px;
-}
+
 h1{
     color:#536c41;
     font-size: 40px;
