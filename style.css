@@ -24,6 +24,10 @@ button{
     width: 30rem;
     height: 18px;
     text-decoration: none;
+    cursor: pointer;
+}
+button:hover{
+    font-style: italic;
 }
 a{
     margin-top: -10px;
