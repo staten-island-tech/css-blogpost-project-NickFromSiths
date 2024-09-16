@@ -3,6 +3,12 @@ html, body, *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 /* NEEDED IN EVERY PROJECT */
 
@@ -18,25 +24,35 @@ body{
 }
 
 .title1{
-    color:#536c41;
     background-color: #73b4aa;
     padding-top: 10px;
     padding-bottom: 10px;
-    transform: rotate(0deg);
-    
-}
 
+}
+.button{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
 h1{
+    color:#536c41;
     font-size: 40px;
     text-align: center;
-    position: relative;
+ /*    transform: translate(0,-5rem); */
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 
 }
 h2{
     font-size: 18px;
     text-align: center;
     color: #536c41;
-    position: relative;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 p{
     text-align: center;
@@ -61,7 +77,20 @@ div{
 }
 
 .post{
-    height: 40rem;
+    height: 41rem;
+    width: 50rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    background-color: #73b4aa;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#post{
+    height: 44rem;
     width: 50rem;
     background-color: white;
     display: flex;
@@ -79,9 +108,10 @@ div{
     /* object fit fixes aspect ratio of img if needed*/
     object-fit: cover;
 }
-.dr-img{
+
+#dr-img{
     width: 100%;
-    height: 83%;
+    height: 80%;
     object-fit: cover;
 }
 .card-title{
